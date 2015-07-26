@@ -17,7 +17,7 @@
   },
   "autoload": {
     "classmap": [
-      "src/controllers"
+      "src/v1/controllers"
     ],
     "psr-4": {
       "Maburdenjr\\SentinelApi\\": "src/SentinelApi"
