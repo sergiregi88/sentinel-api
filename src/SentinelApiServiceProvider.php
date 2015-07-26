@@ -1,4 +1,4 @@
-<?php namespace Maburdenjr\SentinelApi\v1\Providers;
+<?php namespace Maburdenjr\SentinelApi;
 
 use Illuminate\Support\ServiceProvider;
 
