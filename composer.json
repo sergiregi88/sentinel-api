@@ -1,0 +1,24 @@
+{
+  "name": "maburdenjr/sentinel-api",
+  "description": "API routes for Sentinel in Laravel",
+  "keywords": ["sentinel","api","laravel", "auth"],
+  "homepage": "https://github.com/maburden/sentinel-api",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Michael Burden",
+      "email": "maburdenjr@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "cartalyst/support": "~1.0",
+    "dingo/api": "0.9.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Monolog": "src"
+    }
+  }
+}
