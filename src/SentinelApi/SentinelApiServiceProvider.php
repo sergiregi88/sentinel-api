@@ -1,4 +1,4 @@
-<?php namespace Maburdenjr\SentinelApi\Providers;
+<?php namespace Maburdenjr\SentinelApi;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -21,7 +21,7 @@ class SentinelApiServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        include __DIR__.'../../../routes.php';
+        include __DIR__.'../../routes.php';
 
     }
 

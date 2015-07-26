@@ -16,8 +16,11 @@
     "cartalyst/sentinel": "2.0.*"
   },
   "autoload": {
+    "classmap": [
+      "src/controllers"
+    ],
     "psr-4": {
-      "Maburdenjr\\SentinelApi\\": "src/"
+      "Maburdenjr\\SentinelApi\\": "src/SentinelApi"
     }
   }
 }
