@@ -17,8 +17,8 @@
     "dingo/api": "0.9.*"
   },
   "autoload": {
-    "psr-0": {
-      "Monolog": "src"
+    "psr-4": {
+      "maburdenjr\\sentinel-api\\": "src/"
     }
   }
 }
